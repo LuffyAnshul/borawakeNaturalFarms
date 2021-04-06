@@ -1,0 +1,41 @@
+.cta_three {
+	position: relative;
+	display: block;
+	padding: 0 0 120px;
+}
+
+.cta-content {
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+	background: #eddd5e;
+	padding: 60px 60px;
+}
+
+.cta-text h2 {
+	font-size: 50px;
+	color: #404a3d;
+	margin: 0;
+}
+
+.cta-btn .thm-btn {
+	background: #404a3d;
+	color: #ffffff;
+}
+
+.thm-btn {
+	display: inline-block;
+	vertical-align: middle;
+	border: none;
+	outline: none;
+	background-color: #eddd5e;
+	font-size: 20px;
+	color: #000;
+	font-weight: 600;
+	padding: 23px;
+	border-radius: 5px;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}

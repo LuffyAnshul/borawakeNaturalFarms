@@ -1,0 +1,13 @@
+.google_map {
+	position: relative;
+	display: block;
+	background: #f8f8f8;
+}
+
+.google-map__contact {
+	width: 100%;
+	border: none;
+	outline: none;
+	display: block;
+	height: 560px;
+}

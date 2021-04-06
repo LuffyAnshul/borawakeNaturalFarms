@@ -1,0 +1,87 @@
+.topBarContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 40px 0px;
+}
+
+.topContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.topbar-oneLeft {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.topbar-oneLeft a {
+	color: #878986;
+	font-size: 18px;
+	-webkit-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.topbar-oneLeft a + a {
+	margin-top: 10px;
+}
+
+.topbar-oneRight {
+	display: flex;
+	flex-direction: row;
+}
+
+.topbar-oneRight a {
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	text-align: center;
+	width: 45px;
+	height: 45px;
+	background-color: #f5f0e9;
+	color: #878986;
+	font-size: 14px;
+	border-radius: 50%;
+	-webkit-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.topbar-oneRight a + a {
+	margin-left: 10px;
+}
+
+.headerBG {
+	background-image: url("../../assets/header-bg.png");
+	z-index: 10;
+	height: 16px;
+}
+
+.main-navHeader {
+	position: relative;
+	background: #f5f0e9;
+}
+
+.main-navHeader .container {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.navTabs {
+	display: flex;
+	list-style: none;
+}
+
+.navTabs li {
+	margin: 0px 30px;
+}
+
+.navTabs a {
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+	font-weight: 600;
+}

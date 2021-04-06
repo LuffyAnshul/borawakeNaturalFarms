@@ -1,0 +1,90 @@
+.block-title {
+	margin: 60px 0px;
+}
+
+.block-title p {
+	margin: 0;
+	text-transform: uppercase;
+	color: #5b8c51;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.2em;
+	line-height: 24px;
+}
+
+.block-title h3 {
+	margin: 0;
+	color: #000;
+	font-size: 70px;
+	font-weight: 700;
+	line-height: 1em;
+}
+
+.service_four.service_page {
+	padding: 0px 0 144px;
+}
+
+.service_four_single:hover {
+	box-shadow: 0px 20px 20px 0px rgb(0 0 0 / 5%);
+}
+
+.service_four_single {
+	border-radius: 5px;
+	position: relative;
+	display: block;
+	text-align: center;
+	border: 1px solid #f5f0e9;
+	padding: 60px 60px 0;
+	-webkit-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.service_four_details h3 {
+	font-size: 30px;
+	font-weight: 700;
+	margin: 0;
+	padding-top: 31px;
+	padding-bottom: 13px;
+}
+
+.service_four_details p {
+	margin: 0;
+	margin-bottom: 49px;
+}
+
+.service_four_details a:hover {
+	text-decoration: none;
+}
+
+.service_four_read_more {
+	height: 50px;
+	width: 50px;
+	background: #eddd5e;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	position: relative;
+	margin-bottom: -25px;
+	-webkit-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.service_four_read_more a {
+	color: #404a3d;
+}
+
+.service_four_icon {
+	height: 135px;
+	width: 135px;
+	background: #f5f0e9;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin: 0 auto;
+	-webkit-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
