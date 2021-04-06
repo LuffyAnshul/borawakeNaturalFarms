@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import { footerImg, service1img1, service1img2 } from '../../assets/images';
 
 import './Footer.css';
@@ -7,7 +9,7 @@ function Footer() {
 		<div>
 			<footer className="site-footer" >
 				<div class="site-footer_farm_image" >
-					<img src={footerImg} alt="Farm Image"  />
+					<img src={footerImg} alt="Farm Bcakground"  />
 				</div>
 				<div className="container" >
 					<div className="row no-gutters" >
@@ -38,22 +40,16 @@ function Footer() {
 								</div> 
 								<ul class="footer-widget__links-list list-unstyled" >
 									<li >
-										<a href="#" >About Us</a>
+										<Link to="#" >About Us</Link>
 									</li> 
 									<li >
-										<a href="#" >Services</a>
+										<Link to="#" >Services</Link>
 									</li> 
 									<li >
-										<a href="#" >Our Projects</a>
-									</li> 
+										<Link to="#" >Our Projects</Link>
+									</li>
 									<li >
-										<a href="#" >Meet the Farmers</a>
-									</li> 
-									<li >
-										<a href="#" >Latest News</a>
-									</li> 
-									<li >
-										<a href="#" >Contact</a>
+										<Link to="#" >Contact</Link>
 									</li>
 								</ul>
 							</div>
@@ -67,11 +63,11 @@ function Footer() {
 								<ul class="footer-widget__news list-unstyled" >
 									<li >
 										<div class="footer-widget__news_image" >
-											<img src={service1img1} alt=""  />
+											<img src={service1img1} alt="Post Title 1"  />
 										</div> 
 										<div class="footer-widget__news_text" >
 											<p >
-												<a href="/news_detail" > Learn 10 Best Tips for New Formers</a>
+												<Link href="/news_detail"  > Learn 10 Best Tips for New Formers</Link>
 											</p>
 										</div> 
 										<div class="footer-widget__news_date_box" >
@@ -80,11 +76,11 @@ function Footer() {
 									</li> 
 									<li >
 										<div class="footer-widget__news_image" >
-											<img src={service1img2} alt=""  />
+											<img src={service1img2} alt="Post Title 2"  />
 										</div> 
 										<div class="footer-widget__news_text" >
 											<p >
-												<a href="/news_detail" >Farmer Sentiment Darkens Hopes Fade</a>
+												<Link href="/news_detail" >Farmer Sentiment Darkens Hopes Fade</Link>
 											</p>
 										</div> 
 										<div class="footer-widget__news_date_box" >
@@ -102,22 +98,22 @@ function Footer() {
 								</div> 
 								<div class="footer-widget_contact" >
 									<p >66 Broklyn Street, New Town<br  />DC 5752, New Yrok</p> 
-									<a href="mailto:needhelp@agrikol.com" >needhelp@agrikol.com</a>
+									<Link href="mailto:needhelp@agrikol.com" >needhelp@agrikol.com</Link>
 									<br  /> 
-									<a href="tel:666-888-0000" >666 888 0000</a> 
+									<Link href="tel:666-888-0000" >666 888 0000</Link> 
 									<div class="site-footer__social" >
-										<a href="#" >
+										<Link href="#" >
 											<i class="fab fa-facebook-square" ></i>
-										</a> 
-										<a href="#" >
+										</Link> 
+										<Link href="#" >
 											<i class="fab fa-twitter" ></i>
-										</a> 
-										<a href="#" >
+										</Link> 
+										<Link href="#" >
 											<i class="fab fa-instagram" ></i>
-											</a> 
-										<a href="#" >
+											</Link> 
+										<Link href="#" >
 											<i class="fab fa-dribbble" ></i>
-										</a>
+										</Link>
 									</div>
 								</div>
 							</div>
@@ -129,22 +125,22 @@ function Footer() {
 			<div class="site-footer_bottom">
 				<div class="container">
 					<div class="site-footer_bottom_copyright">
-						<p>@ All copyright 2020, <a href="#">Layerdrops.com</a></p>
+						<p>@ All copyright 2020, <Link href="#">Layerdrops.com</Link></p>
 					</div> 
 					<div class="site-footer_bottom_menu">
 						<ul class="list-unstyled">
 							<li>
-								<a href="#">Privacy Policy</a>
+								<Link href="privacyPolic.com">Privacy Policy</Link>
 							</li> 
 							<li>
-								<a href="#">Terms of Use</a>
+								<Link href="termsAndConditions.com">Terms of Use</Link>
 							</li>
 						</ul>
 					</div>
 				</div>
 			</div>
 
-			<a href="#" class="scroll-to-target scroll-to-top" style={{ display: 'block' }}>
+			<a href="#header" class="scroll-to-target scroll-to-top" style={{ display: 'block' }}>
 				<i class="fa fa-angle-up"></i>
 			</a>
 		</div>

@@ -10,19 +10,19 @@ function ServiceSection () {
 						<p>What we do</p>
 						<h3>Services We Offer</h3>
 						<div className="leaf" >
-							<img src={featuredLeaf} />
+							<img src={featuredLeaf} alt="Leaf" />
 						</div>
 					</div>
 					<div className="row" >
 
-						<div className="col-xl-3 col-lg-3 col-md-6" >
+						<div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-2" >
 							<div class="service_1_single wow fadeInUp">
 								<div class="content" >
 									<h3 >Fresh<br />vegetables</h3> 
 									<p >Lorem ipsum is simply are many variations of pass of majority.</p>
 								</div> 
 								<div class="service_1_img" >
-									<img src={service1img1} alt="Service Image 1"  /> 
+									<img src={service1img1} alt="Service 1"  /> 
 									<div class="hover_box" >
 										<a href="/service-detail" >
 											<i class="fas fa-arrow-left"></i>
@@ -32,14 +32,14 @@ function ServiceSection () {
 							</div>
 						</div>
 
-						<div className="col-xl-3 col-lg-3 col-md-6" >
+						<div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-2" >
 							<div class="service_1_single wow fadeInUp">
 								<div class="content" >
 									<h3 >Fresh<br />vegetables</h3> 
 									<p >Lorem ipsum is simply are many variations of pass of majority.</p>
 								</div> 
 								<div class="service_1_img" >
-									<img src={service1img2} alt="Service Image 2"  /> 
+									<img src={service1img2} alt="Service 2"  /> 
 									<div class="hover_box" >
 										<a href="/service-detail" >
 											<i class="fas fa-arrow-left"></i>
@@ -49,14 +49,14 @@ function ServiceSection () {
 							</div>
 						</div>
 
-						<div className="col-xl-3 col-lg-3 col-md-6" >
+						<div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-2" >
 							<div class="service_1_single wow fadeInUp">
 								<div class="content" >
 									<h3 >Fresh<br />vegetables</h3> 
 									<p >Lorem ipsum is simply are many variations of pass of majority.</p>
 								</div> 
 								<div class="service_1_img" >
-									<img src={service1img3} alt="Service Image 3"  /> 
+									<img src={service1img3} alt="Service 3"  /> 
 									<div class="hover_box" >
 										<a href="/service-detail" >
 											<i class="fas fa-arrow-left"></i>
@@ -66,14 +66,14 @@ function ServiceSection () {
 							</div>
 						</div>
 
-						<div className="col-xl-3 col-lg-3 col-md-6" >
+						<div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-2" >
 							<div class="service_1_single wow fadeInUp">
 								<div class="content" >
 									<h3 >Fresh<br />vegetables</h3> 
 									<p >Lorem ipsum is simply are many variations of pass of majority.</p>
 								</div> 
 								<div class="service_1_img" >
-									<img src={service1img4} alt="Service Image 4"  /> 
+									<img src={service1img4} alt="Service 4"  /> 
 									<div class="hover_box" >
 										<a href="/service-detail" >
 											<i class="fas fa-arrow-left"></i>

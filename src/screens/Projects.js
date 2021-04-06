@@ -1,7 +1,12 @@
+import PageHeader from "../components/Projects/PageHeader/PageHeader";
+import ProjectsSection from "../components/Projects/ProjectsSection/ProjectsSection";
+
+
 function Projects() {
 	return(
 		<section>
-			<h1>Project Page</h1>
+			<PageHeader/>
+			<ProjectsSection />
 		</section>
 	);
 }

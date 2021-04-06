@@ -11,7 +11,7 @@ function ServicesInfo() {
 					<p>What we do</p>
 					<h3>Services We Offer</h3>
 					<div className="leaf" >
-						<img src={featuredLeaf} />
+						<img src={featuredLeaf} alt="Leaf" />
 					</div>
 				</div>
 				<div className="row" >

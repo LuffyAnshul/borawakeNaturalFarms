@@ -4,21 +4,6 @@
 	padding: 120px 0 120px;
 }
 
-.row {
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.slideInLeft {
-	-webkit-animation-name: slideInLeft;
-	animation-name: slideInLeft;
-}
-
-.slideInRight {
-	-webkit-animation-name: slideInRight;
-	animation-name: slideInRight;
-}
-
 .single_featured_box {
 	background: #5b8c51;
 	display: block;
@@ -27,32 +12,12 @@
 }
 
 .single_featured_box img {
-	position: relative;
-	top: -5px;
+	width: 70px;
+	height: 22px;
 }
 
 .single_featured_box span {
 	color: #ffffff;
 	font-size: 15px;
 	padding: 0 18px;
-}
-
-@keyframes slideInLeft {
-	0% {
-		transform: translate3d(-100%, 0, 0);
-		visibility: visible;
-	}
-	100% {
-		transform: translate3d(0, 0, 0);
-	}
-}
-
-@keyframes slideInRight {
-	0% {
-		transform: translate3d(100%, 0, 0);
-		visibility: visible;
-	}
-	100% {
-		transform: translate3d(0, 0, 0);
-	}
 }

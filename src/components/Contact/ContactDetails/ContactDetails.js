@@ -15,11 +15,11 @@ function ContactDetails() {
 								<p>contact with us</p>
 								<h3>WRITE US A MESSAGE</h3>
 								<div className="leaf" >
-									<img src={featuredLeaf} />
+									<img src={featuredLeaf} alt="Leaf" />
 								</div>
 							</div>
 
-							<form action="#" class="contactForm" >
+							<form action="#" class="contactForm mx-4" >
 								<div class="row low-gutters" >
 									<div class="col-md-6" >
 										<div class="input-group" >
@@ -58,15 +58,15 @@ function ContactDetails() {
 					</div>
 
 					<div className="col-md-5" >
-						<div className="have_questions" >
+						<div className="have_questions ms-md-3 my-2" >
 							<div className="image_box" >
-								<img src={ContactImg} />
+								<img src={ContactImg} alt="Profile" />
 							</div>
 							<div className="block-title text-center" >
 								<p>get in touch with us</p>
 								<h3>Have question?</h3>
 								<div className="leaf" >
-									<img src={featuredLeaf} />
+									<img src={featuredLeaf} alt="Leaf" />
 								</div>
 							</div>
 

@@ -7,12 +7,12 @@ function ProductBanner() {
 		<section className="cta_three" >
 			<div className="container" >
 				<div className="row" >
-					<div className="col-md-12" >
-						<div className="cta-content" >
-							<div className="cta-text" >
+					<div className="fluid-container" >
+						<div className="cta-content row" >
+							<div className="cta-text col-sm-7" >
 								<h2>We Provide high-quality Products</h2>
 							</div>
-							<div className="cta-btn" >
+							<div className="cta-btn col-sm-5" >
 								<Link to="/services" aria-current="page" class="thm-btn nuxt-link-exact-active nuxt-link-active">
 									Discover More
 								</Link>

@@ -13,6 +13,15 @@ export { default as featuredLeaf } from './featuredLeaf.png';
 
 export { default as ContactImg } from './contact_img.jpg';
 
+// Projects Page
+
+export { default as Project1 } from './recent-pro-img-1.jpg';
+export { default as Project2 } from './recent-pro-img-2.jpg';
+export { default as Project3 } from './recent-pro-img-3.jpg';
+export { default as Project4 } from './recent-pro-img-4.jpg';
+export { default as Project5 } from './recent-pro-img-5.jpg';
+export { default as Project6 } from './recent-pro-img-6.jpg';
+
 
 // Footer
 
