@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/borawakeNaturalFarms/static/css/main.94a18bda.chunk.css",
-    "main.js": "/borawakeNaturalFarms/static/js/main.80701663.chunk.js",
-    "main.js.map": "/borawakeNaturalFarms/static/js/main.80701663.chunk.js.map",
+    "main.css": "/borawakeNaturalFarms/static/css/main.fa7bb602.chunk.css",
+    "main.js": "/borawakeNaturalFarms/static/js/main.b48062c0.chunk.js",
+    "main.js.map": "/borawakeNaturalFarms/static/js/main.b48062c0.chunk.js.map",
     "runtime-main.js": "/borawakeNaturalFarms/static/js/runtime-main.8ab69917.js",
     "runtime-main.js.map": "/borawakeNaturalFarms/static/js/runtime-main.8ab69917.js.map",
     "static/js/2.7a10e4d6.chunk.js": "/borawakeNaturalFarms/static/js/2.7a10e4d6.chunk.js",
     "static/js/2.7a10e4d6.chunk.js.map": "/borawakeNaturalFarms/static/js/2.7a10e4d6.chunk.js.map",
     "index.html": "/borawakeNaturalFarms/index.html",
-    "static/css/main.94a18bda.chunk.css.map": "/borawakeNaturalFarms/static/css/main.94a18bda.chunk.css.map",
+    "static/css/main.fa7bb602.chunk.css.map": "/borawakeNaturalFarms/static/css/main.fa7bb602.chunk.css.map",
     "static/js/2.7a10e4d6.chunk.js.LICENSE.txt": "/borawakeNaturalFarms/static/js/2.7a10e4d6.chunk.js.LICENSE.txt",
     "static/media/contact_img.9e233569.jpg": "/borawakeNaturalFarms/static/media/contact_img.9e233569.jpg",
+    "static/media/ServicesSection.css": "/borawakeNaturalFarms/static/media/cta_one_bg-1.5120eacb.jpg",
     "static/media/PageHeader.css": "/borawakeNaturalFarms/static/media/page-header-contact.4d38ec20.jpg",
     "static/media/pageNotFound.6e0f02c0.jpg": "/borawakeNaturalFarms/static/media/pageNotFound.6e0f02c0.jpg",
     "static/media/recent-pro-img-1.56ed0381.jpg": "/borawakeNaturalFarms/static/media/recent-pro-img-1.56ed0381.jpg",
@@ -28,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.8ab69917.js",
     "static/js/2.7a10e4d6.chunk.js",
-    "static/css/main.94a18bda.chunk.css",
-    "static/js/main.80701663.chunk.js"
+    "static/css/main.fa7bb602.chunk.css",
+    "static/js/main.b48062c0.chunk.js"
   ]
 }
