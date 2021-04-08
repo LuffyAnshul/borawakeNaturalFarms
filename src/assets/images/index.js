@@ -28,6 +28,9 @@ export { default as Project4 } from './recent-pro-img-4.jpg';
 export { default as Project5 } from './recent-pro-img-5.jpg';
 export { default as Project6 } from './recent-pro-img-6.jpg';
 
+// Project Details
+
+export { default as ProjectInfo1 } from './project-detail-img-1.jpg';
 
 // Footer
 

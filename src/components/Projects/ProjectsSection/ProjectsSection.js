@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 import { Project1, Project2, Project3, Project4, Project5, Project6 } from '../../../assets/images';
 import './ProjectsSection.css';
@@ -7,6 +7,7 @@ function ProjectsSection() {
 	return(
 		<section className="recent-project my-4" >
 			<div className="container" >
+				
 				<div className="row">
 
 					<div className="col-xl-4 col-lg-4 col-md-4">
@@ -17,7 +18,7 @@ function ProjectsSection() {
 									<h3 >organic<br />solutions</h3>
 								</div> 
 								<div className="hover_box">
-									<Link to="/projects_detail" className="">
+									<Link to="/projectDetails#project1" >
 										<i className="fas fa-arrow-left"></i>
 									</Link>
 								</div>
@@ -33,7 +34,7 @@ function ProjectsSection() {
 									<h3 >harvest<br />innovations</h3>
 								</div> 
 								<div  className="hover_box">
-									<Link to="/projects_detail" className="">
+									<Link to="/projectDetails#project2" >
 										<i className="fas fa-arrow-left"></i>
 									</Link>
 								</div>
@@ -49,7 +50,7 @@ function ProjectsSection() {
 									<h3 >agriculture<br />farming</h3>
 								</div> 
 								<div  className="hover_box">
-									<Link  to="/projects_detail" className="">
+									<Link to="/projectDetails#project3" className="">
 										<i className="fas fa-arrow-left"></i>
 									</Link>
 								</div>
@@ -69,7 +70,7 @@ function ProjectsSection() {
 									<h3 >the farming<br />season</h3>
 								</div> 
 								<div className="hover_box">
-									<Link to="/projects_detail" className="">
+									<Link to="/projectDetails#project4" className="">
 										<i className="fas fa-arrow-left"></i>
 									</Link>
 								</div>
@@ -85,7 +86,7 @@ function ProjectsSection() {
 									<h3 >ecological<br />farming</h3>
 								</div> 
 								<div  className="hover_box">
-									<Link to="/projects_detail" className="">
+									<Link to="/projectDetails#project5" className="">
 										<i className="fas fa-arrow-left"></i>
 									</Link>
 								</div>
@@ -101,7 +102,7 @@ function ProjectsSection() {
 									<h3 >natural way<br />of agriculture</h3>
 								</div> 
 								<div  className="hover_box">
-									<Link  to="/projects_detail" className="">
+									<Link to="/projectDetails#project6" className="">
 										<i className="fas fa-arrow-left"></i>
 									</Link>
 								</div>

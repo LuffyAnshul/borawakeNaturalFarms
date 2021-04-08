@@ -3,10 +3,12 @@ import ServicesInfo from '../components/Services/ServicesInfo/ServicesInfo';
 import ServiceSection from '../components/Home/ServicesSection/ServiceSection';
 import ProductBanner from '../components/Home/ProductBanner/ProductBanner';
 
+import ScrollToTop from '../components/ScrollToTop';
 
 function Services() {
 	return (
 		<div>
+			<ScrollToTop />
 			<PageHeader />
 			<ServicesInfo />
 			<ServiceSection />

@@ -69,9 +69,9 @@ function TopNavigationBar() {
 								<li>
 									<Link to="/aboutus" className="nav-link">About Us</Link>
 								</li>
-								<li>
+								{/* <li>
 									<Link to="/news" className="nav-link">News</Link>
-								</li>
+								</li> */}
 								<li>
 									<Link to="/contact"className="nav-link" >Contact</Link>
 								</li>

@@ -1,0 +1,136 @@
+.project_detail {
+	position: relative;
+	display: block;
+	padding: 120px 0 93px;
+}
+
+.project_detail_image {
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+
+.project_detail_image img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.harvest_innovations_detail h2 {
+	font-size: 40px;
+	color: #404a3d;
+	font-weight: 700;
+	margin: 0;
+	margin-bottom: 33px;
+	text-transform: uppercase;
+}
+
+.harvest_innovations_detail_bottom_text {
+	padding-top: 11px;
+	padding-bottom: 18px;
+}
+
+.project_challenges {
+	border-bottom: 1px solid #f5f0e9;
+	margin-bottom: 49px;
+}
+
+.project_challenges h2 {
+	font-size: 45px;
+	color: #404a3d;
+	margin: 0;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+.project_challenges_box {
+	margin: 0;
+}
+
+.project_challenges_box li {
+	position: relative;
+	display: block;
+	padding-left: 50px;
+	padding-bottom: 69px;
+}
+
+.project_challenges_content h4 {
+	color: #404a3d;
+	font-size: 24px;
+	margin: 0;
+	padding-bottom: 38px;
+}
+
+.project_challenges_content p {
+	margin: 0;
+}
+
+.project_information_box {
+	border-radius: 5px;
+	position: relative;
+	display: block;
+	background: #f5f0e9;
+	padding: 54px 20px 40px;
+}
+
+.project_information_box h3 {
+	font-size: 26px;
+	color: #404a3d;
+	margin: 0;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 23px;
+}
+
+.project_information_list {
+	margin: 0;
+	border-bottom: 1px solid #ffffff;
+	margin-bottom: 40px;
+}
+
+.list-unstyled {
+	padding-left: 0;
+	list-style: none;
+}
+
+.project_information_list li {
+	color: #404a3d;
+	padding-bottom: 17px;
+}
+
+.project_information_list span {
+	color: #878986;
+}
+
+.project_information__social {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+}
+
+.project_information__social a {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	text-align: center;
+	width: 45px;
+	height: 45px;
+	background-color: #ffffff;
+	color: #878986;
+	font-size: 14px;
+	border-radius: 50%;
+	-webkit-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.project_information__social a + a {
+	margin-left: 10px;
+}
+
+.project_information__social a:hover {
+	color: #ffffff;
+	background-color: #5b8c51;
+}

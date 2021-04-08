@@ -9,7 +9,7 @@ function OurExperience() {
 					<div className="col-xl-6 col-lg-6 col-md-6" >
 						<div className="block-title text-left" >
 							<p >About Borawake Natural Farms</p> 
-							<h3 >We’re Providing The Best Solution</h3> 
+							<h3 >We’re Providing The Best Produce</h3> 
 							<div className="leaf" >
 								<img src={featuredLeaf} alt="leaf"  />
 							</div>
