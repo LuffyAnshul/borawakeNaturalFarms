@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/borawakeNaturalFarms/static/css/main.8fc585ae.chunk.css",
-    "main.js": "/borawakeNaturalFarms/static/js/main.c87bda99.chunk.js",
-    "main.js.map": "/borawakeNaturalFarms/static/js/main.c87bda99.chunk.js.map",
+    "main.css": "/borawakeNaturalFarms/static/css/main.e596d693.chunk.css",
+    "main.js": "/borawakeNaturalFarms/static/js/main.cb8e03c3.chunk.js",
+    "main.js.map": "/borawakeNaturalFarms/static/js/main.cb8e03c3.chunk.js.map",
     "runtime-main.js": "/borawakeNaturalFarms/static/js/runtime-main.8ab69917.js",
     "runtime-main.js.map": "/borawakeNaturalFarms/static/js/runtime-main.8ab69917.js.map",
     "static/js/2.775c60be.chunk.js": "/borawakeNaturalFarms/static/js/2.775c60be.chunk.js",
     "static/js/2.775c60be.chunk.js.map": "/borawakeNaturalFarms/static/js/2.775c60be.chunk.js.map",
     "index.html": "/borawakeNaturalFarms/index.html",
-    "static/css/main.8fc585ae.chunk.css.map": "/borawakeNaturalFarms/static/css/main.8fc585ae.chunk.css.map",
+    "static/css/main.e596d693.chunk.css.map": "/borawakeNaturalFarms/static/css/main.e596d693.chunk.css.map",
     "static/js/2.775c60be.chunk.js.LICENSE.txt": "/borawakeNaturalFarms/static/js/2.775c60be.chunk.js.LICENSE.txt",
     "static/media/about-1-img-1.18a0478d.jpg": "/borawakeNaturalFarms/static/media/about-1-img-1.18a0478d.jpg",
     "static/media/about-1-img-2.07663e80.jpg": "/borawakeNaturalFarms/static/media/about-1-img-2.07663e80.jpg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.8ab69917.js",
     "static/js/2.775c60be.chunk.js",
-    "static/css/main.8fc585ae.chunk.css",
-    "static/js/main.c87bda99.chunk.js"
+    "static/css/main.e596d693.chunk.css",
+    "static/js/main.cb8e03c3.chunk.js"
   ]
 }
