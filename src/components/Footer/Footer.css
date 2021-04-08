@@ -242,6 +242,11 @@
 	margin: 0;
 }
 
+.footer-widget_contact {
+	position: relative;
+	display: block;
+}
+
 .footer-widget_contact p {
 	color: #c5c9c4;
 	font-size: 16px;

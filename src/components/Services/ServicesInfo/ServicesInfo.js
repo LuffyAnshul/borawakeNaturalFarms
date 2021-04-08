@@ -28,9 +28,9 @@ function ServicesInfo() {
 									There are many variations of passages of available, but the majority have suffered.
 								</p>
 							</div> 
-							<div class="service_four_read_more">
-								<Link to="/service-detail" class="">
-									<i class="fas fa-arrow-right"></i>
+							<div className="service_four_read_more">
+								<Link to="/service-detail" className="">
+									<i className="fas fa-arrow-right"></i>
 								</Link>
 							</div>
 						</div>
@@ -49,9 +49,9 @@ function ServicesInfo() {
 									There are many variations of passages of available, but the majority have suffered.
 								</p>
 							</div> 
-							<div class="service_four_read_more">
-								<Link to="/service-detail" class="">
-									<i class="fas fa-arrow-right"></i>
+							<div className="service_four_read_more">
+								<Link to="/service-detail" className="">
+									<i className="fas fa-arrow-right"></i>
 								</Link>
 							</div>
 						</div>
@@ -70,9 +70,9 @@ function ServicesInfo() {
 									There are many variations of passages of available, but the majority have suffered.
 								</p>
 							</div> 
-							<div class="service_four_read_more">
-								<Link to="/service-detail" class="">
-									<i class="fas fa-arrow-right"></i>
+							<div className="service_four_read_more">
+								<Link to="/service-detail" className="">
+									<i className="fas fa-arrow-right"></i>
 								</Link>
 							</div>
 						</div>

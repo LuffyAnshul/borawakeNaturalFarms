@@ -13,7 +13,7 @@ function ProductBanner() {
 								<h2>We Provide high-quality Products</h2>
 							</div>
 							<div className="cta-btn col-sm-5" >
-								<Link to="/services" aria-current="page" class="thm-btn nuxt-link-exact-active nuxt-link-active">
+								<Link to="/farmProduce" aria-current="page" className="thm-btn nuxt-link-exact-active nuxt-link-active">
 									Discover More
 								</Link>
 							</div>

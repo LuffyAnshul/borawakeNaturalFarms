@@ -1,6 +1,12 @@
 
 // Home Page
 
+export { default as aboutImg1 } from './about-1-img-1.jpg';
+export { default as aboutImg2 } from './about-1-img-2.jpg';
+export { default as aboutIcon1 } from './about-icon-1.png';
+export { default as aboutIcon2 } from './about-icon-2.png';
+export { default as aboutIcon3 } from './about-icon-3.png';
+
 export { default as service1img1 } from './service1img1.jpg';
 export { default as service1img2 } from './service1img2.jpg';
 export { default as service1img3 } from './service1img3.jpg';

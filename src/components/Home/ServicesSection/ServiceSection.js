@@ -16,16 +16,16 @@ function ServiceSection () {
 					<div className="row" >
 
 						<div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-2" >
-							<div class="service_1_single wow fadeInUp">
-								<div class="content" >
+							<div className="service_1_single wow fadeInUp">
+								<div className="content" >
 									<h3 >Fresh<br />vegetables</h3> 
 									<p >Lorem ipsum is simply are many variations of pass of majority.</p>
 								</div> 
-								<div class="service_1_img" >
+								<div className="service_1_img" >
 									<img src={service1img1} alt="Service 1"  /> 
-									<div class="hover_box" >
+									<div className="hover_box" >
 										<a href="/service-detail" >
-											<i class="fas fa-arrow-left"></i>
+											<i className="fas fa-arrow-left"></i>
 										</a>
 									</div>
 								</div>
@@ -33,16 +33,16 @@ function ServiceSection () {
 						</div>
 
 						<div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-2" >
-							<div class="service_1_single wow fadeInUp">
-								<div class="content" >
+							<div className="service_1_single wow fadeInUp">
+								<div className="content" >
 									<h3 >Fresh<br />vegetables</h3> 
 									<p >Lorem ipsum is simply are many variations of pass of majority.</p>
 								</div> 
-								<div class="service_1_img" >
+								<div className="service_1_img" >
 									<img src={service1img2} alt="Service 2"  /> 
-									<div class="hover_box" >
+									<div className="hover_box" >
 										<a href="/service-detail" >
-											<i class="fas fa-arrow-left"></i>
+											<i className="fas fa-arrow-left"></i>
 										</a>
 									</div>
 								</div>
@@ -50,16 +50,16 @@ function ServiceSection () {
 						</div>
 
 						<div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-2" >
-							<div class="service_1_single wow fadeInUp">
-								<div class="content" >
+							<div className="service_1_single wow fadeInUp">
+								<div className="content" >
 									<h3 >Fresh<br />vegetables</h3> 
 									<p >Lorem ipsum is simply are many variations of pass of majority.</p>
 								</div> 
-								<div class="service_1_img" >
+								<div className="service_1_img" >
 									<img src={service1img3} alt="Service 3"  /> 
-									<div class="hover_box" >
+									<div className="hover_box" >
 										<a href="/service-detail" >
-											<i class="fas fa-arrow-left"></i>
+											<i className="fas fa-arrow-left"></i>
 										</a>
 									</div>
 								</div>
@@ -67,16 +67,16 @@ function ServiceSection () {
 						</div>
 
 						<div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-2" >
-							<div class="service_1_single wow fadeInUp">
-								<div class="content" >
+							<div className="service_1_single wow fadeInUp">
+								<div className="content" >
 									<h3 >Fresh<br />vegetables</h3> 
 									<p >Lorem ipsum is simply are many variations of pass of majority.</p>
 								</div> 
-								<div class="service_1_img" >
+								<div className="service_1_img" >
 									<img src={service1img4} alt="Service 4"  /> 
-									<div class="hover_box" >
+									<div className="hover_box" >
 										<a href="/service-detail" >
-											<i class="fas fa-arrow-left"></i>
+											<i className="fas fa-arrow-left"></i>
 										</a>
 									</div>
 								</div>

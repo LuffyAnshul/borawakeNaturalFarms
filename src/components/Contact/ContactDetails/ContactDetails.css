@@ -35,7 +35,7 @@
 	margin-right: -5px;
 }
 
-.contactForm .row.low-gutters > [class*="col-"] {
+.contactForm .row.low-gutters > [className*="col-"] {
 	padding-left: 10px;
 	padding-right: 10px;
 }

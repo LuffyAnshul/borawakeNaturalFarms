@@ -1,0 +1,156 @@
+.about_one {
+	position: relative;
+	display: block;
+	padding: 120px 0 120px;
+}
+
+.about1_img {
+	position: relative;
+}
+
+.about1_img > img {
+	border-radius: 5px;
+	width: 100%;
+}
+
+.about1_shape_1 {
+	position: absolute;
+	left: -215px;
+	top: 70px;
+	height: 430px;
+	width: 430px;
+	background: #f5f0e9;
+	border-radius: 50%;
+	z-index: -1;
+}
+
+.about1_icon-box {
+	position: absolute;
+	top: 50%;
+	left: -60px;
+	transform: translateY(-57.5px);
+}
+
+.about1_icon-box .circle {
+	height: 115px;
+	width: 115px;
+	background: #eddd5e;
+	border-radius: 50%;
+	position: absolute;
+	text-align: center;
+}
+
+.about1_icon-box .circle:before {
+	content: "";
+	position: absolute;
+	top: -15px;
+	left: -15px;
+	right: -15px;
+	bottom: -15px;
+	border-radius: 50%;
+	border: 1px dashed #fff;
+}
+
+.about_img_2 {
+	position: absolute;
+	left: 170px;
+	bottom: -112px;
+}
+
+.about_img_2 img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.about_one .block-title {
+	margin-bottom: 42px;
+}
+
+.block-title p {
+	margin: 0;
+	text-transform: uppercase;
+	color: #5f8f55;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.2em;
+	line-height: 24px;
+}
+
+.block-title h3 {
+	margin: 0;
+	color: #404a3d;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1em;
+}
+
+.block-title .leaf {
+	padding-top: 5px;
+}
+
+.about_content .text p {
+	margin: 0;
+}
+
+.about1_icon_wrap {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	margin-bottom: 39px;
+	margin-top: 40px;
+}
+
+.about1_icon_single {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+}
+
+.about1_icon_single p {
+	color: #404a3d;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 0;
+}
+
+.about1_icon_single .about1_icon {
+	height: 60px;
+	width: 60px;
+	margin-right: 16px;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.icon-harvest:before {
+	content: "\e906";
+}
+
+.icon-temperature:before {
+	content: "\e907";
+}
+
+.bottom_text p {
+	margin: 0;
+}
+
+.about1__button-block {
+	margin-top: 49px;
+}
+
+.thm-btn {
+	display: inline-block;
+	vertical-align: middle;
+	border: none;
+	outline: none;
+	background-color: #eddd5e;
+	font-size: 20px;
+	color: #404a3d;
+	font-weight: 600;
+	padding: 23px 50px;
+	border-radius: 5px;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}

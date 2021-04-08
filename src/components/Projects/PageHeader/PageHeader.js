@@ -4,12 +4,12 @@ import './PageHeader.css'
 
 function PageHeader() {
 	return(
-		<section class="page-header">
-			<div class="container" >
+		<section className="page-header">
+			<div className="container" >
 				<h2>Projects</h2> 
-				<ul class="thm-breadcrumb list-unstyled" >
+				<ul className="thm-breadcrumb list-unstyled" >
 					<li >
-						<Link to="/" class="nuxt-link-active" >Home</Link>
+						<Link to="/" className="nuxt-link-active" >Home</Link>
 					</li>
 					<li >
 						<span>Our Projects</span>

@@ -5,18 +5,18 @@ import './TopNavigationBar.css';
 
 function TopNavigationBar() {
 	return (
-		<div className="fluid-container" id="header">
+		<div className="container" id="header">
 			{/* Above NavBar  */}
 			<div className="row align-items-center justify-content-center">
 
 				{/* Contact Info */}
 				<div className="col-lg-4 col-md-4 col-sm-12" >
 					<div className="topbar-oneLeft" >
-						<a href="mailto:anshulborawake@gmail.com" >
-							<span><i class="fas fa-envelope-open-text"> anshulborawake@gmail.com</i></span>
+						<a href="mailto:borawakenaturalfarms@gmail.com" >
+							<span><i className="fas fa-envelope-open-text"> borawakenaturalfarms@gmail.com</i></span>
 						</a>
-						<a href="tel:9158191727" >
-							<span><i class="fas fa-mobile-alt"> 9158191727</i></span>
+						<a href="tel:9890170090" >
+							<span><i className="fas fa-mobile-alt"> 9890170090</i></span>
 						</a>
 						
 					</div>
@@ -34,51 +34,46 @@ function TopNavigationBar() {
 				{/* Social Media */}
 				<div className="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center" >
 					<div className="topbar-oneRight" >
-						<a href="facebook.com" >
-							<i class="fab fa-facebook-f"></i>
+						<a href="https://www.facebook.com/borawakenaturalfarms/" >
+							<i className="fab fa-facebook-f"></i>
 						</a>
-						<a href="gmail.com" >
-							<i class="far fa-envelope"></i>
+						<a href="mailto:borawakenaturalfarms@gmail.com" >
+							<i className="far fa-envelope"></i>
 						</a>
-						<a href="yahoo.com" >
-							<i class="fab fa-whatsapp"></i>
-						</a>
-						<a href="github.com" >
-							<i class="fab fa-facebook-f"></i>
+						<a href="https://api.whatsapp.com/send?phone=9890170090" >
+							<i className="fab fa-whatsapp"></i>
 						</a>
 					</div>
 				</div>
-			</div>
-
-			
+			</div>	
 
 			<header className="main-navHeader" >
 				<div className="headerBG"> </div>
 				
-				<nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
-					<div class="container-fluid main-navHeader">
-						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
+				<nav className="navbar navbar-expand-lg navbar-light bg-light p-0">
+					<div className="container-fluid main-navHeader">
+						<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+							<span className="navbar-toggler-icon"></span>
 						</button>
-						<div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo01">
-							<ul class="navbar-nav navTabs">
+						<div className="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo01">
+							<ul className="navbar-nav navTabs">
 								<li>
-									<Link to="/" class="nav-link">Home</Link>
+									<Link to="/" className="nav-link">Home</Link>
 								</li>
 								<li>
-									<Link to="/services" class="nav-link">Services</Link>
+									<Link to="/farmProduce" className="nav-link">Farm Produce</Link>
 								</li>
 								<li>
-									<Link to="/projects" class="nav-link">Projects</Link>
+									<Link to="/projects" className="nav-link">Projects</Link>
 								</li>
 								<li>
-									<Link to="/gallery" class="nav-link">Gallery</Link>
+									<Link to="/aboutus" className="nav-link">About Us</Link>
 								</li>
 								<li>
-									<Link to="/news" class="nav-link">News</Link>
+									<Link to="/news" className="nav-link">News</Link>
 								</li>
 								<li>
-									<Link to="/contact"class="nav-link" >Contact</Link>
+									<Link to="/contact"className="nav-link" >Contact</Link>
 								</li>
 							</ul>
 						</div>

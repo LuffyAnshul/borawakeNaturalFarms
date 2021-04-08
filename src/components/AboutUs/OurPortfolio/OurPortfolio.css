@@ -1,0 +1,183 @@
+.portfolio {
+	position: relative;
+	display: block;
+	padding: 120px 0 0px;
+	background: #f5f0e9;
+	margin-bottom: 120px;
+}
+
+.product_img {
+	position: relative;
+	display: block;
+}
+
+.product_img img {
+	width: 100%;
+}
+
+.experience_box {
+	position: absolute;
+	left: 30px;
+	bottom: -60px;
+	height: 172px;
+	width: 270px;
+	background: #eddd5e;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+
+.experience_box h2 {
+	color: #404a3d;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.experience_box p {
+	letter-spacing: 0.2em;
+	color: #404a3d;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin: 0;
+	line-height: 26px;
+}
+
+.growing_product {
+	background: #ffffff;
+	position: relative;
+	display: block;
+	padding: 120px 120px 0px;
+	margin-top: 120px;
+	margin-left: -149px;
+	border-radius: 5px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.growing_product:before {
+	position: absolute;
+	bottom: -120px;
+	left: 0;
+	right: 0;
+	height: 120px;
+	content: "";
+	background: #ffffff;
+	z-index: 1;
+}
+
+.growing_product .block-title {
+	margin-bottom: 33px;
+}
+
+.block-title p {
+	margin: 0;
+	text-transform: uppercase;
+	color: #5b8c51;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.2em;
+	line-height: 24px;
+}
+
+.block-title h3 {
+	margin: 0;
+	color: #404a3d;
+	font-size: 70px;
+	font-weight: 700;
+	line-height: 1em;
+}
+
+.block-title .leaf {
+	padding-top: 5px;
+}
+
+.growing_product_text {
+	margin-bottom: 10px;
+}
+
+.growing_product_text p {
+	margin: 0;
+}
+
+.progress-levels {
+	position: relative;
+	display: block;
+}
+
+.progress-levels .progress-box {
+	position: relative;
+	display: block;
+	margin-bottom: 8px;
+}
+
+.progress-levels .progress-box .inner {
+	position: relative;
+	display: block;
+}
+
+.progress-levels .progress-box .inner .text {
+	position: relative;
+	color: #404a3d;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	text-transform: capitalize;
+	padding-bottom: 15px;
+}
+
+.progress-levels .progress-box .bar {
+	position: relative;
+	display: block;
+}
+
+.progress-levels .progress-box .bar .bar-innner {
+	position: relative;
+	width: 100%;
+	height: 13px;
+	background: #f5f0e9;
+	border-radius: 10px;
+}
+
+.progress-levels .progress-box .bar .bar-fill-one {
+	width: 68% !important;
+}
+
+.progress-levels .progress-box .bar .bar-fill-two {
+	width: 98% !important;
+}
+
+.progress-levels .progress-box .bar .bar-fill {
+	position: absolute;
+	top: 0%;
+	left: 0px;
+	bottom: 0%;
+	width: 0px;
+	height: 13px;
+	border-radius: 10px;
+	background: #5b8c51;
+	transition: all 2000ms ease 300ms;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.growing_product {
+		padding: 120px 58px 0px;
+		margin-left: 0;
+		border-radius: 0;
+	}
+	.protfoilio {
+		margin-bottom: 120px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.growing_product {
+		padding: 120px 58px 0px;
+		margin-left: 0;
+		border-radius: 0;
+	}
+}

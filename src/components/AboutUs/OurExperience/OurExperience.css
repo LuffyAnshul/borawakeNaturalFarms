@@ -1,0 +1,66 @@
+.ourExperience {
+	margin-bottom: 110px;
+}
+
+.ourExperience .block-title {
+	margin-bottom: 55px;
+}
+
+.block-title p {
+	margin: 0;
+	text-transform: uppercase;
+	color: #5b8c51;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.2em;
+	line-height: 24px;
+}
+
+.block-title h3 {
+	margin: 0;
+	color: #404a3d;
+	font-size: 70px;
+	font-weight: 700;
+	line-height: 1em;
+}
+
+.block-title .leaf {
+	padding-top: 5px;
+}
+
+.about_two_text {
+	margin-top: 28px;
+}
+
+.about_two-right {
+	position: relative;
+}
+
+.about_two_left img,
+.about_two_middle img,
+.about_two-right img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.about_two_content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	background-color: rgba(91, 140, 81, 0.7);
+}
+
+.about_two_content h2 {
+	color: #eddd5e;
+	font-size: 25px;
+	line-height: 60px;
+	font-weight: 700;
+	margin: 0;
+}

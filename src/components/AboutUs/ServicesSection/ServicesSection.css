@@ -1,0 +1,63 @@
+.services {
+	background-image: url("../../../assets/images/cta_one_bg-1.jpg");
+	position: relative;
+	display: block;
+	padding: 108px 0 120px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	z-index: 1;
+}
+
+.services:before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(91, 140, 81, 0.9);
+	z-index: -1;
+}
+
+.cta_one_content h1 {
+	color: #ffffff;
+	font-size: 3rem;
+	margin: 0;
+	margin-bottom: 22px;
+}
+
+.cta_one_content p {
+	color: #ffffff;
+	font-size: 20px;
+	margin: 0;
+}
+
+.cta_one__button-block {
+	margin-top: 55px;
+}
+
+.thm-btn {
+	display: inline-block;
+	vertical-align: middle;
+	border: none;
+	outline: none;
+	background-color: #eddd5e;
+	font-size: 20px;
+	color: #404a3d;
+	font-weight: 600;
+	padding: 23px 50px;
+	border-radius: 5px;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.cta_one__button-block .cta_one__btn:hover {
+	color: #ffffff;
+	background: #404a3d;
+}
+
+.thm-btn:hover {
+	background-color: #5b8c51;
+	color: #ffffff;
+}

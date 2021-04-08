@@ -19,36 +19,36 @@ function ContactDetails() {
 								</div>
 							</div>
 
-							<form action="#" class="contactForm mx-4" >
-								<div class="row low-gutters" >
-									<div class="col-md-6" >
-										<div class="input-group" >
+							<form action="#" className="contactForm mx-4" >
+								<div className="row low-gutters" >
+									<div className="col-md-6" >
+										<div className="input-group" >
 											<input name="name" placeholder="Your Name"  />
 										</div>
 									</div> 
-									<div class="col-md-6" >
-										<div class="input-group" >
+									<div className="col-md-6" >
+										<div className="input-group" >
 											<input name="email" placeholder="Email Address"  />
 										</div>
 									</div> 
-									<div class="col-md-6" >
-										<div class="input-group" >
+									<div className="col-md-6" >
+										<div className="input-group" >
 											<input name="phone" placeholder="Phone Number"  />
 										</div>
 									</div> 
-									<div class="col-md-6" >
-										<div class="input-group" >
+									<div className="col-md-6" >
+										<div className="input-group" >
 											<input name="subject" placeholder="Subject"  />
 										</div>
 									</div> 
-									<div class="col-md-12" >
-										<div class="input-group" >
+									<div className="col-md-12" >
+										<div className="input-group" >
 											<textarea name="message" placeholder="Write Message" ></textarea>
 										</div>
 									</div> 
-									<div class="col-md-12" >
-										<div class="input-group contact__btn" >
-											<button type="submit" class="thm-btn contact-one__btn" >Send message</button>
+									<div className="col-md-12" >
+										<div className="input-group contact__btn" >
+											<button type="submit" className="thm-btn contact-one__btn" >Send message</button>
 										</div>
 									</div>
 								</div>
