@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/borawakeNaturalFarms/static/css/main.68de8f1a.chunk.css",
-    "main.js": "/borawakeNaturalFarms/static/js/main.98d26fb5.chunk.js",
-    "main.js.map": "/borawakeNaturalFarms/static/js/main.98d26fb5.chunk.js.map",
+    "main.css": "/borawakeNaturalFarms/static/css/main.e5436057.chunk.css",
+    "main.js": "/borawakeNaturalFarms/static/js/main.5b7207d3.chunk.js",
+    "main.js.map": "/borawakeNaturalFarms/static/js/main.5b7207d3.chunk.js.map",
     "runtime-main.js": "/borawakeNaturalFarms/static/js/runtime-main.5659e7a2.js",
     "runtime-main.js.map": "/borawakeNaturalFarms/static/js/runtime-main.5659e7a2.js.map",
     "static/js/2.a640a608.chunk.js": "/borawakeNaturalFarms/static/js/2.a640a608.chunk.js",
     "static/js/2.a640a608.chunk.js.map": "/borawakeNaturalFarms/static/js/2.a640a608.chunk.js.map",
     "index.html": "/borawakeNaturalFarms/index.html",
-    "static/css/main.68de8f1a.chunk.css.map": "/borawakeNaturalFarms/static/css/main.68de8f1a.chunk.css.map",
+    "static/css/main.e5436057.chunk.css.map": "/borawakeNaturalFarms/static/css/main.e5436057.chunk.css.map",
     "static/js/2.a640a608.chunk.js.LICENSE.txt": "/borawakeNaturalFarms/static/js/2.a640a608.chunk.js.LICENSE.txt",
     "static/media/about-1-img-1.18a0478d.jpg": "/borawakeNaturalFarms/static/media/about-1-img-1.18a0478d.jpg",
     "static/media/about-1-img-2.07663e80.jpg": "/borawakeNaturalFarms/static/media/about-1-img-2.07663e80.jpg",
@@ -27,12 +27,15 @@
     "static/media/service1img2.088dcb97.jpg": "/borawakeNaturalFarms/static/media/service1img2.088dcb97.jpg",
     "static/media/service1img3.08b702ee.jpg": "/borawakeNaturalFarms/static/media/service1img3.08b702ee.jpg",
     "static/media/service1img4.cb098e94.jpg": "/borawakeNaturalFarms/static/media/service1img4.cb098e94.jpg",
-    "static/media/site-footer-farm.e1d2cbe9.png": "/borawakeNaturalFarms/static/media/site-footer-farm.e1d2cbe9.png"
+    "static/media/site-footer-farm.e1d2cbe9.png": "/borawakeNaturalFarms/static/media/site-footer-farm.e1d2cbe9.png",
+    "static/media/slide_v1_1.ad392f9c.jpg": "/borawakeNaturalFarms/static/media/slide_v1_1.ad392f9c.jpg",
+    "static/media/slide_v1_2.e18b5901.jpg": "/borawakeNaturalFarms/static/media/slide_v1_2.e18b5901.jpg",
+    "static/media/slide_v1_3.7a7cce46.jpg": "/borawakeNaturalFarms/static/media/slide_v1_3.7a7cce46.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5659e7a2.js",
     "static/js/2.a640a608.chunk.js",
-    "static/css/main.68de8f1a.chunk.css",
-    "static/js/main.98d26fb5.chunk.js"
+    "static/css/main.e5436057.chunk.css",
+    "static/js/main.5b7207d3.chunk.js"
   ]
 }
