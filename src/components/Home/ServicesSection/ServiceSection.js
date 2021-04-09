@@ -1,10 +1,13 @@
-import { service1img1, service1img2, service1img3, service1img4, featuredLeaf } from '../../../assets/images'
+import { HashLink as Link } from 'react-router-hash-link';
 
+import { service1img1, service1img2, service1img3, service1img4, featuredLeaf } from '../../../assets/images'
 import './ServiceSection.css';
 
 function ServiceSection () {
+
 	return(
 		<section className="service-one" >
+
 				<div className="container" >
 					<div className="block-title text-center" >
 						<p>What we do</p>
@@ -24,9 +27,9 @@ function ServiceSection () {
 								<div className="service_1_img" >
 									<img src={service1img1} alt="Service 1"  /> 
 									<div className="hover_box" >
-										<a href="/service-detail" >
+										<Link to="/contact#contactForm">
 											<i className="fas fa-arrow-left"></i>
-										</a>
+										</Link>
 									</div>
 								</div>
 							</div>
@@ -41,9 +44,9 @@ function ServiceSection () {
 								<div className="service_1_img" >
 									<img src={service1img2} alt="Service 2"  /> 
 									<div className="hover_box" >
-										<a href="/service-detail" >
+										<Link to="/contact#contactForm">
 											<i className="fas fa-arrow-left"></i>
-										</a>
+										</Link>
 									</div>
 								</div>
 							</div>
@@ -58,9 +61,9 @@ function ServiceSection () {
 								<div className="service_1_img" >
 									<img src={service1img3} alt="Service 3"  /> 
 									<div className="hover_box" >
-										<a href="/service-detail" >
+										<Link to="/contact#contactForm">
 											<i className="fas fa-arrow-left"></i>
-										</a>
+										</Link>
 									</div>
 								</div>
 							</div>
@@ -75,9 +78,9 @@ function ServiceSection () {
 								<div className="service_1_img" >
 									<img src={service1img4} alt="Service 4"  /> 
 									<div className="hover_box" >
-										<a href="/service-detail" >
+										<Link to="/contact#contactForm">
 											<i className="fas fa-arrow-left"></i>
-										</a>
+										</Link>
 									</div>
 								</div>
 							</div>

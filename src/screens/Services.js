@@ -12,8 +12,7 @@ function Services() {
 			<PageHeader />
 			<ServicesInfo />
 			<ServiceSection />
-			<div style={{ paddingTop: '120px' }} />
-			<ProductBanner />
+			{/* <ProductBanner /> */}
 		</div>
 	);
 }

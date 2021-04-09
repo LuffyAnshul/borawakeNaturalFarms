@@ -10,7 +10,7 @@ function ContactDetails() {
 
 				<div className="row" >
 					<div className="col-md-7" >
-						<div className="contactFormWrap" >
+						<div className="contactFormWrap" id="contactForm" >
 							<div className="block-title text-left" >
 								<p>contact with us</p>
 								<h3>WRITE US A MESSAGE</h3>

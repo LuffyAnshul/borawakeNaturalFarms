@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 import './ProductBanner.css';
 
@@ -13,8 +13,8 @@ function ProductBanner() {
 								<h2>We Provide high-quality Products</h2>
 							</div>
 							<div className="cta-btn col-sm-5" >
-								<Link to="/farmProduce" aria-current="page" className="thm-btn nuxt-link-exact-active nuxt-link-active">
-									Discover More
+								<Link to="/contact#contactForm" className="thm-btn nuxt-link-exact-active nuxt-link-active">
+									Contact Now
 								</Link>
 							</div>
 						</div>
